@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 Widget bmi_chart(ans) {
   return Column(
     crossAxisAlignment: CrossAxisAlignment.start,
@@ -40,7 +39,7 @@ Widget bmi_chart(ans) {
                 fontSize: 16,
                 fontWeight: FontWeight.w500,
                 color: ((ans?.toDouble() ?? 0) >= 16.0 &&
-                    (ans?.toDouble() ?? 0) <= 16.9)
+                        (ans?.toDouble() ?? 0) <= 16.9)
                     ? Colors.green
                     : Colors.black,
                 letterSpacing: 0.4),
@@ -51,7 +50,7 @@ Widget bmi_chart(ans) {
                 fontSize: 16,
                 fontWeight: FontWeight.w500,
                 color: ((ans?.toDouble() ?? 0) >= 16.0 &&
-                    (ans?.toDouble() ?? 0) <= 16.9)
+                        (ans?.toDouble() ?? 0) <= 16.9)
                     ? Colors.green
                     : Colors.black,
                 letterSpacing: 0.4),
@@ -67,7 +66,7 @@ Widget bmi_chart(ans) {
                 fontSize: 16,
                 fontWeight: FontWeight.w500,
                 color: ((ans?.toDouble() ?? 0) >= 17.0 &&
-                    (ans?.toDouble() ?? 0) <= 18.4)
+                        (ans?.toDouble() ?? 0) <= 18.4)
                     ? Colors.green
                     : Colors.black,
                 letterSpacing: 0.4),
@@ -78,7 +77,7 @@ Widget bmi_chart(ans) {
                 fontSize: 16,
                 fontWeight: FontWeight.w500,
                 color: ((ans?.toDouble() ?? 0) >= 17.0 &&
-                    (ans?.toDouble() ?? 0) <= 18.4)
+                        (ans?.toDouble() ?? 0) <= 18.4)
                     ? Colors.green
                     : Colors.black,
                 letterSpacing: 0.4),
@@ -94,7 +93,7 @@ Widget bmi_chart(ans) {
                 fontSize: 16,
                 fontWeight: FontWeight.w500,
                 color: ((ans?.toDouble() ?? 0) >= 18.5 &&
-                    (ans?.toDouble() ?? 0) <= 24.9)
+                        (ans?.toDouble() ?? 0) <= 24.9)
                     ? Colors.green
                     : Colors.black,
                 letterSpacing: 0.4),
@@ -105,7 +104,7 @@ Widget bmi_chart(ans) {
                 fontSize: 16,
                 fontWeight: FontWeight.w500,
                 color: ((ans?.toDouble() ?? 0) >= 18.5 &&
-                    (ans?.toDouble() ?? 0) <= 24.9)
+                        (ans?.toDouble() ?? 0) <= 24.9)
                     ? Colors.green
                     : Colors.black,
                 letterSpacing: 0.4),
@@ -121,7 +120,7 @@ Widget bmi_chart(ans) {
                 fontSize: 16,
                 fontWeight: FontWeight.w500,
                 color: ((ans?.toDouble() ?? 0) >= 25.0 &&
-                    (ans?.toDouble() ?? 0) <= 29.9)
+                        (ans?.toDouble() ?? 0) <= 29.9)
                     ? Colors.green
                     : Colors.black,
                 letterSpacing: 0.4),
@@ -132,7 +131,7 @@ Widget bmi_chart(ans) {
                 fontSize: 16,
                 fontWeight: FontWeight.w500,
                 color: ((ans?.toDouble() ?? 0) >= 25.0 &&
-                    (ans?.toDouble() ?? 0) <= 29.9)
+                        (ans?.toDouble() ?? 0) <= 29.9)
                     ? Colors.green
                     : Colors.black,
                 letterSpacing: 0.4),
@@ -148,7 +147,7 @@ Widget bmi_chart(ans) {
                 fontSize: 16,
                 fontWeight: FontWeight.w500,
                 color: ((ans?.toDouble() ?? 0) >= 30.0 &&
-                    (ans?.toDouble() ?? 0) <= 34.9)
+                        (ans?.toDouble() ?? 0) <= 34.9)
                     ? Colors.green
                     : Colors.black,
                 letterSpacing: 0.4),
@@ -159,7 +158,7 @@ Widget bmi_chart(ans) {
                 fontSize: 16,
                 fontWeight: FontWeight.w500,
                 color: ((ans?.toDouble() ?? 0) >= 30.0 &&
-                    (ans?.toDouble() ?? 0) <= 34.9)
+                        (ans?.toDouble() ?? 0) <= 34.9)
                     ? Colors.green
                     : Colors.black,
                 letterSpacing: 0.4),
@@ -175,7 +174,7 @@ Widget bmi_chart(ans) {
                 fontSize: 16,
                 fontWeight: FontWeight.w500,
                 color: ((ans?.toDouble() ?? 0) >= 35.0 &&
-                    (ans?.toDouble() ?? 0) <= 39.9)
+                        (ans?.toDouble() ?? 0) <= 39.9)
                     ? Colors.green
                     : Colors.black,
                 letterSpacing: 0.4),
@@ -186,7 +185,7 @@ Widget bmi_chart(ans) {
                 fontSize: 16,
                 fontWeight: FontWeight.w500,
                 color: ((ans?.toDouble() ?? 0) >= 35.0 &&
-                    (ans?.toDouble() ?? 0) <= 39.9)
+                        (ans?.toDouble() ?? 0) <= 39.9)
                     ? Colors.green
                     : Colors.black,
                 letterSpacing: 0.4),

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:sakib/pages/helper/bmi_chart.dart';
 import 'package:sakib/pages/helper/bmi_meter.dart';
 
-
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
 
